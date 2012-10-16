@@ -401,7 +401,7 @@ public class GestureImageView extends ImageView  {
 			setImageDrawable(getContext().getResources().getDrawable(id));
 		}
 	}
-
+	
 	public int getScaledWidth() {
 		return Math.round(getImageWidth() * getScale());
 	}
@@ -677,7 +677,11 @@ public class GestureImageView extends ImageView  {
 	public void setStartingScale(float startingScale) {
 		this.startingScale = startingScale;
 	}
-	
+
+	public double getStartingScale() {
+		return startingScale;
+	}
+
 	public void setStartingPosition(float x, float y) {
 		this.startX = x;
 		this.startY = y;
