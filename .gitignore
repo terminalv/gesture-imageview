@@ -1,4 +1,6 @@
-example/bin
-example/gen
+example/bin/
+example/gen/
+example/target/
 main/bin/
 main/gen/
+main/target/
